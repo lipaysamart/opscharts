@@ -1,0 +1,14 @@
+apiVersion: v1
+entries:
+  ngdemo:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2024-11-21T09:22:25.375791576Z"
+    description: A Helm chart for Kubernetes
+    digest: 302d37abf79a4548e60ef33c0c5f2234dd0e52e95e41a47ee35b7f257c42af06
+    name: ngdemo
+    type: application
+    urls:
+    - https://github.com/lipaysamart/argocharts/releases/download/ngdemo-0.1.0/ngdemo-0.1.0.tgz
+    version: 0.1.0
+generated: "2024-11-21T09:22:25.375797618Z"
