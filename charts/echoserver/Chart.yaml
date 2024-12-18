@@ -1,0 +1,12 @@
+apiVersion: v2
+name: echoserver
+description: A Helm chart for Kubernetes
+type: application
+home: https://lipaysamart.github.io/opscharts/
+sources:
+  - https://github.com/Ealenn/Echo-Server
+maintainers:
+  - name: lipaysam
+    email: lipaysamart@gmail.com
+version: 0.1.0
+appVersion: "0.8.1"
