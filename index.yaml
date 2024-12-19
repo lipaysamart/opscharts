@@ -1,5 +1,22 @@
 apiVersion: v1
 entries:
+  echoserver:
+  - apiVersion: v2
+    appVersion: 0.8.1
+    created: "2024-12-19T11:47:21.514373666Z"
+    description: A Helm chart for Kubernetes
+    digest: 119c663e0b0f9a57f086e308bb46764a718f5820562bfdd52a38246c7c7dbaaa
+    home: https://lipaysamart.github.io/opscharts/
+    maintainers:
+    - email: lipaysamart@gmail.com
+      name: lipaysam
+    name: echoserver
+    sources:
+    - https://github.com/Ealenn/Echo-Server
+    type: application
+    urls:
+    - https://github.com/lipaysamart/opscharts/releases/download/echoserver-0.1.0/echoserver-0.1.0.tgz
+    version: 0.1.0
   ngdemo:
   - apiVersion: v2
     appVersion: 1.16.1
@@ -27,4 +44,4 @@ entries:
     urls:
     - https://github.com/lipaysamart/argocharts/releases/download/ngdemo-0.1.0/ngdemo-0.1.0.tgz
     version: 0.1.0
-generated: "2024-11-26T01:31:30.811935679Z"
+generated: "2024-12-19T11:47:21.514388033Z"
