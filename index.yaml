@@ -1,20 +1,37 @@
 apiVersion: v1
 entries:
   echoserver:
-    - apiVersion: v2
-      appVersion: 0.8.1
-      created: "2024-12-19T11:47:21.514373666Z"
-      description: A Helm chart for Kubernetes
-      digest: 119c663e0b0f9a57f086e308bb46764a718f5820562bfdd52a38246c7c7dbaaa
-      home: https://lipaysamart.github.io/opscharts/
-      maintainers:
-        - email: lipaysamart@gmail.com
-          name: lipaysam
-      name: echoserver
-      sources:
-        - https://github.com/Ealenn/Echo-Server
-      type: application
-      urls:
-        - https://github.com/lipaysamart/opscharts/releases/download/echoserver-0.1.0/echoserver-0.1.0.tgz
-      version: 0.1.0
-generated: "2024-12-19T11:47:21.514388033Z"
+  - apiVersion: v2
+    appVersion: 0.8.1
+    created: "2024-12-19T11:47:21.514373666Z"
+    description: A Helm chart for Kubernetes
+    digest: 119c663e0b0f9a57f086e308bb46764a718f5820562bfdd52a38246c7c7dbaaa
+    home: https://lipaysamart.github.io/opscharts/
+    maintainers:
+    - email: lipaysamart@gmail.com
+      name: lipaysam
+    name: echoserver
+    sources:
+    - https://github.com/Ealenn/Echo-Server
+    type: application
+    urls:
+    - https://github.com/lipaysamart/opscharts/releases/download/echoserver-0.1.0/echoserver-0.1.0.tgz
+    version: 0.1.0
+  navidrome:
+  - apiVersion: v2
+    appVersion: 0.54.3
+    created: "2025-01-02T10:08:32.343119592Z"
+    description: A Helm chart for Kubernetes
+    digest: 0f85e928d38d6628ac38dc017c7d8933a93876ec2c7bbab3352b3cc4e6d3fb93
+    home: https://lipaysamart.github.io/opscharts/
+    maintainers:
+    - email: lipaysamart@gmail.com
+      name: lipaysam
+    name: navidrome
+    sources:
+    - https://github.com/navidrome/navidrome
+    type: application
+    urls:
+    - https://github.com/lipaysamart/opscharts/releases/download/navidrome-0.1.0/navidrome-0.1.0.tgz
+    version: 0.1.0
+generated: "2025-01-02T10:08:32.343128999Z"
