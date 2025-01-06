@@ -66,17 +66,17 @@ Set's up the volume Set's up the volumeClaimTemplates when data is required.
 */}}
 {{- define "navidrome.volumeClaims" -}}
   {{- if .Values.dataStorage.enabled }}
-  volumeClaimTemplates:
-    - metadata:
-        name: data
-      spec:
-        accessModes:
-          - {{ .Values.dataStorage.accessMode | default "ReadWriteOnce" }}
-        resources:
-          requests:
-            storage: {{ .Values.dataStorage.size }}
-          {{- if .Values.dataStorage.storageClass }}
-        storageClassName: {{ .Values.dataStorage.storageClass }}
+volumeClaimTemplates:
+  - metadata:
+      name: data
+    spec:
+      accessModes:
+        - {{ .Values.dataStorage.accessMode | default "ReadWriteOnce" }}
+      resources:
+        requests:
+          storage: {{ .Values.dataStorage.size }}
+        {{- if .Values.dataStorage.storageClass }}
+      storageClassName: {{ .Values.dataStorage.storageClass }}
           {{- end }}
     {{- end }}
 {{- end -}}
