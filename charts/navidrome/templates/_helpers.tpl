@@ -81,17 +81,6 @@ volumeClaimTemplates:
     {{- end }}
 {{- end -}}
 
-{{/*
-Inject extra environment vars in the format key:value, if populated
-*/}}
-{{- define "navidrome.extraEnvironmentVars" -}}
-{{- if .extraEnvironmentVars -}}
-{{- range $key, $value := .extraEnvironmentVars }}
-- name: {{ printf "%s" $key | replace "." "_" | upper | quote }}
-  value: {{ $value | quote }}
-{{- end }}
-{{- end -}}
-{{- end -}}
 
 {{/*
 Inject extra environment vars in the format key:value
@@ -106,4 +95,3 @@ Inject extra environment vars in the format key:value
 {{- end -}}
 {{- end -}}
 {{- end -}}
-
