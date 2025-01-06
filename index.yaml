@@ -20,6 +20,22 @@ entries:
   navidrome:
   - apiVersion: v2
     appVersion: 0.54.3
+    created: "2025-01-06T12:38:20.046896079Z"
+    description: A Helm chart for Kubernetes
+    digest: 3313202239eb663d1431099e58ff4b2b583d111b1f76e9fe1cd80cead85ff898
+    home: https://lipaysamart.github.io/opscharts/
+    maintainers:
+    - email: lipaysamart@gmail.com
+      name: lipaysam
+    name: navidrome
+    sources:
+    - https://github.com/navidrome/navidrome
+    type: application
+    urls:
+    - https://github.com/lipaysamart/opscharts/releases/download/navidrome-0.1.2/navidrome-0.1.2.tgz
+    version: 0.1.2
+  - apiVersion: v2
+    appVersion: 0.54.3
     created: "2025-01-06T09:07:22.228442044Z"
     description: A Helm chart for Kubernetes
     digest: e8cbc9fbe1e2ca1960cf29b13493fc3fc36b3eaabf55f33823b59d1e2a544300
@@ -50,4 +66,4 @@ entries:
     urls:
     - https://github.com/lipaysamart/opscharts/releases/download/navidrome-0.1.0/navidrome-0.1.0.tgz
     version: 0.1.0
-generated: "2025-01-06T09:07:22.22845085Z"
+generated: "2025-01-06T12:38:20.046913963Z"
