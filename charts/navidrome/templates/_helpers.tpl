@@ -90,8 +90,9 @@ Inject extra environment vars in the format key:value
 {{- range $key, $value := .extraSecretEnvironmentVars }}
 - name: {{ .envName }}
   valueFrom:
-    name: {{ .secretName }}
-    key: {{ .secretKey }}
+    secretKeyRef:
+      key: {{ .secretKey }}
+      name: {{ .secretName }}
 {{- end -}}
 {{- end -}}
 {{- end -}}
