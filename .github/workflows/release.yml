@@ -22,6 +22,7 @@ jobs:
           git config user.name "$GITHUB_ACTOR"
           git config user.email "$GITHUB_ACTOR@users.noreply.github.com"
 
+      # releaser-tool 不会自动为依赖项添加存储库，需要在运行 releaser 之前将其添加到管道
       - name: Add Helm dependencies
         run: |
           helm repo add ingress-nginx https://kubernetes.github.io/ingress-nginx
